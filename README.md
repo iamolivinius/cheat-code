@@ -1,4 +1,4 @@
-# <cheat-code>
+# &lt;cheat-code&gt;
 
 > A simple polymer element to recognize cheat codes
 
