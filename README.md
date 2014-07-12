@@ -1,24 +1,20 @@
-# &lt;my-repo&gt;
+# <cheat-code>
 
-> A bare minimum custom element starter-kit using [Polymer](http://www.polymer-project.org/).
->
-> Like [Yeoman](http://yeoman.io/)? Use the [generator-element](https://www.npmjs.org/package/generator-element) instead.
->
-> Looking for a working example? Check [hello-world-polymer](https://github.com/webcomponents/hello-world-polymer).
+> A simple polymer element to recognize cheat codes
 
 ## Demo
 
-[Check it live!](http://my-user.github.io/my-repo)
+[Check it live!](http://iamolivinius.github.io/cheat-code)
 
 ## Install
 
 Install the component using [Bower](http://bower.io/):
 
 ```sh
-$ bower install my-repo --save
+$ bower install cheat-code --save
 ```
 
-Or [download as ZIP](https://github.com/my-user/my-repo/archive/master.zip).
+Or [download as ZIP](https://github.com/iamolivinius/cheat-code/archive/master.zip).
 
 ## Usage
 
@@ -31,32 +27,26 @@ Or [download as ZIP](https://github.com/my-user/my-repo/archive/master.zip).
 2. Import Custom Element:
 
     ```html
-    <link rel="import" href="bower_components/my-repo/dist/my-element.html">
+    <link rel="import" href="bower_components/cheat-code/dist/cheat-code.html">
     ```
 
 3. Start using it!
 
     ```html
-    <my-element></my-element>
+    <cheat-code></cheat-code>
     ```
 
 ## Options
 
 Attribute     | Options     | Default      | Description
 ---           | ---         | ---          | ---
-`foo`         | *string*    | `bar`        | Lorem ipsum dolor.
-
-## Methods
-
-Method        | Parameters   | Returns     | Description
----           | ---          | ---         | ---
-`unicorn()`   | None.        | Nothing.    | Magic stuff appears.
+`pattern`     | *string*    | `[38, 38, 40, 40, 37, 39, 37, 39, 65, 66]`    | Konami Code.
 
 ## Events
 
 Event         | Description
 ---           | ---
-`onsomething` | Triggers when something happens.
+`recognized`  | Triggers when a cheat code is recognized.
 
 ## Development
 
@@ -102,7 +92,7 @@ In order to run it locally you'll need to fetch some dependencies and a basic se
 
 ## History
 
-For detailed changelog, check [Releases](https://github.com/my-user/my-repo/releases).
+For detailed changelog, check [Releases](https://github.com/iamolivinius/cheat-code/releases).
 
 ## License
 
