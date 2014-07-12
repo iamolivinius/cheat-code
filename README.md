@@ -35,6 +35,12 @@ Or [download as ZIP](https://github.com/iamolivinius/cheat-code/archive/master.z
     ```html
     <cheat-code></cheat-code>
     ```
+    
+    or
+    
+    ```html
+    <cheat-code pattern="[65,66,65,67,65,66,66]"></cheat-code>
+    ```
 
 ## Options
 
