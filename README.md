@@ -33,13 +33,11 @@ Or [download as ZIP](https://github.com/iamolivinius/cheat-code/archive/master.z
 3. Start using it!
 
     ```html
-    <cheat-code></cheat-code>
+    <cheat-code></cheat-code> <!-- default Konami code -->
     ```
-    
     or
-    
     ```html
-    <cheat-code pattern="[65,66,65,67,65,66,66]"></cheat-code>
+    <cheat-code pattern="[65,66,65,67,65,66,66]"></cheat-code> <!-- custom code: abacabb  -->
     ```
 
 ## Options
